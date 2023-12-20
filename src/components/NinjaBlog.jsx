@@ -11,11 +11,11 @@ const NinjaBlog = () => {
         <h2 className="lg:mt-[92px] md:mt-16 mt-11 font-black lg:text-3xl md:text-2xxl text-xxl text-center font-Merriweather leading-[normal] text-black">
           The Food Ninja Blog
         </h2>
-        <p className=" font-normal mt-3 text-medium text-center text-lg font-Roboto leading-[normal] text-email-text">
+        <p className=" font-normal mt-3 text-medium text-center md:text-lg text-xs font-Roboto leading-[normal] text-email-text">
           A blog about food, experiences, and recipes.
         </p>
         <div className="flex justify-center">
-          <div className="bg-white border border-[#dddddd] py-3.5 ps-[28px] pe-[23px] items-center gap-3 flex max-w-[430px] mt-10">
+          <div className="bg-white border border-[#dddddd] py-3.5 ps-[28px] pe-[23px] items-center gap-3 flex max-w-[430px] lg:mt-14 md:mt-10 mt-7">
             <input
               type="email"
               placeholder="Search for articles"
